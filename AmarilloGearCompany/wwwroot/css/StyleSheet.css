@@ -1,0 +1,156 @@
+﻿body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    padding-left: 180px;
+}
+
+h3 {
+    color: #000000;
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    padding-top: 10px;
+    font-size: 1.65em;
+    text-align: center;
+}
+
+img {
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    padding-right: 20px;
+}
+
+ul p {
+    text-align: left;
+}
+
+form {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+#header {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.nav {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#footer {
+    font-size: .60em;
+    font-style: italic;
+    clear: both;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #CCCCCC;
+    min-width: 700px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: #000000;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: inset -3px -3px 3px 3px #000000;
+    -moz-box-shadow: inset -3px -3px 3px 3px #000000;
+    box-shadow: inset -3px -3px 3px 3px #000000;
+}
+
+#left {
+    float: left;
+    width: 150px;
+}
+
+    #left a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;
+        border: 2px outset #CCCCCC;
+        padding: 4px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
+
+#picturelink a {
+    margin: auto;
+    width: 150px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 2px outset #CCCCCC;
+    padding: 4px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#right {
+    margin-left: 180px;
+    padding: 10px 20px 20px 0;
+}
+
+#left a:link {
+    background-color: #34465f;
+}
+
+#left a:hover {
+    border: 2px inset #006cff;
+}
+
+#left a:visited {
+    background-color: #34465f;
+}
+
+#picturelink a:link {
+    background-color: #660066;
+}
+
+#picturelink a:hover {
+    border: 2px inset #9999FF;
+}
+
+#picturelink a:visited {
+    background-color: #660066;
+}
+
+#left ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
