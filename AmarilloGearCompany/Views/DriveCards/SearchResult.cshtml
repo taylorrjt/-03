@@ -1,0 +1,24 @@
+﻿@model IEnumerable<GearNumber>
+@{
+    ViewData["Title"] = "SearchResult";
+}
+
+<h2>Search Result</h2>
+
+    @if (Model.count() == 0)
+    {
+        <p>There were not gears matching that number.</p>
+    }
+    else
+    {
+        <p>Gear Found:</p>
+
+        <ul>
+            @foreach (var g in Model)
+            {
+                <li>@g.GearNumber</li>
+            }
+
+        </ul>
+    }
+

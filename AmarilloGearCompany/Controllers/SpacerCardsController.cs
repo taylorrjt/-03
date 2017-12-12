@@ -34,6 +34,27 @@ namespace AmarilloGearCompany.Controllers
         }
 
 
+        //Search For a Gear Number
+        public IActionResult SearchGearNum()
+        {
+            return View();
+        }
+
+        /*
+        //Search Results
+        [HttpPost]
+        public async Task<IActionResult> SearchResult(SearchInputModel Search)
+            {
+            var GNum = await _context.SpacerCards.ToListAsync();
+
+            var filtered = GNum.Where (g => g.GearNumber == SearchGearNum);
+
+            return filtered();
+            }
+            */
+
+
+
         // GET: SpacerCards/Details/5
         public async Task<IActionResult> Details(int? id)
         {

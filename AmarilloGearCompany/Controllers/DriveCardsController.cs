@@ -19,6 +19,27 @@ namespace AmarilloGearCompany.Controllers
             _context = context;
         }
 
+        //
+        //Search For a Gear Number
+        public IActionResult SearchGearNum()
+        {
+            return View();
+        }
+
+        //
+        //Search Results
+        [HttpPost]
+        public async Task<IActionResult> SearchResult(SearchInputModel Search)
+        {
+            var GNum = await _context.DriveCards.ToListAsync();
+
+            var filtered = GNum.Where(g => g.GearNumber == Search.SearchGearNum);
+
+            return View(filtered);
+        }
+        
+
+
         // GET: DriveCards
         public async Task<IActionResult> Index()
         {

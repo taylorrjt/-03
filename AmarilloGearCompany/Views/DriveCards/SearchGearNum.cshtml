@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "SearchGearNum";
+}
+
+<h2>Search For A Gear</h2>
+<form asp-controller="DriveCardsController" asp-action="SearchResults" method="post" class="form-horizontal">
+
+
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Search By Gear Number</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Gear Number">GearNum</label>
+            <div class="col-md-4">
+                <input id="Gear Number" name="Gear Number" placeholder="" class="form-control input-md" required="" type="text">
+
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <div class="col-md-4">
+                <button id="Submit" name="Submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
